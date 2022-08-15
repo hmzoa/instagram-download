@@ -12,7 +12,6 @@ else:
     if url[-1] != "/":
         url = url + "/"
     url = url + "?__a=1&__d=dis"
-    print(url)
 
 headers = {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36',"cookie":"csrftoken="+"".join(random.choices(string.ascii_lowercase + string.ascii_uppercase + string.digits, k=32))+";"}
 
